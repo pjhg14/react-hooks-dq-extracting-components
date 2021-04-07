@@ -1,7 +1,7 @@
 import Message from "./Message"
-import { messages } from "../data";
+// import { messages } from "../data";
 
-function Messages() {
+function Messages({ messages }) {
     const messageList = messages.map(message => {
         return(
             <Message

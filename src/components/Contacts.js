@@ -1,7 +1,7 @@
 import Contact from "./Contact"
-import { contacts } from "../data";
+// import { contacts } from "../data";
 
-function Contacts() {
+function Contacts({ contacts }) {
     const contactList = contacts.map(contact => {
         return(
             <Contact key={contact.id} name={contact.name}/>

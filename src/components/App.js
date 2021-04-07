@@ -9,8 +9,8 @@ console.log("Contacts:", contacts);
 function App() {
   return (
     <div className="app">
-      <Contacts/>
-      <Messages/>
+      <Contacts contacts={contacts}/>
+      <Messages messages={messages}/>
     </div>
   );
 }
